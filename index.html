@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome linked (a css file jo kisi cloud pe stored h ) -->
+</head>
+<body>
+    <!-- <header class="navbar"> -->
+        <header>
+        <div class="navbar">
+        <div class="nav-logo border">           <!--given 2 class names-->
+            <div id="logo"></div>
+            <!-- <img src="Amazon-logo.jpg" > -->       
+            <!-- this is in html therefore ye apni tarah se hi aplicable hoga and more i am still not clear  -->
+        </div>
+
+        <div class="nav-address border">
+            <p class="add-first">deliver to</p>
+            <div id="location">
+                <i class="fa-solid fa-location-dot"></i>         
+                <p style="margin-left: 4px; font-weight: bold;" >INDIA</p>
+                <!-- both in same container so that we we can align them in same line  -->
+            </div>
+        </div>
+
+        <div class="nav-search ">
+        
+            <select id="toselect">        <!--no need of name here-->
+           { <option  selected>All</option>      <!--no need of values also here-->
+            <option >grocery</option> 
+            <option >books</option>
+            <option >beauty</option>
+            <option >women's wear</option>
+            <option >men's wear</option>
+            <option >furniture</option>
+            <option >electronics</option>}
+            </select>
+    
+            <input placeholder="Search Amazon" id="placeholder">
+
+            <div id="searchsym" >
+                <i class="fa-solid fa-magnifying-glass fa-xl" 
+                style="color: #FFD43B;" ></i>   <!--id  cannot be given here , its implementing its own different stylesheet -->
+            </div>
+        </div>
+
+        <!-- a box for language -->
+
+        <div class="sign-in border">
+            <p ><span>Hello! sign in</span></p>       <!--can use class add-first also -->
+                <a href="#" class="nav-second">
+                    Account & lists</a>                              <!--simialar type of class was to be used in INDIA writtern above-->
+        </div>
+
+        <div class="nav-return border">
+            <p ><span>Returns</span></p>       
+               <a href="#" class="nav-second">& Orders</a>                             
+        </div>
+
+        <div class="nav-cart border">
+            <i class="fa-solid fa-cart-shopping" id="cart"></i>
+            <a  href="#" class="nav-second">Cart</a>
+        </div>
+    </div>
+
+    <div class="panel">
+        <div class="panel-all border">
+        <i class="fa-solid fa-bars"></i>
+        <p style="padding-left: 4px;">All</p>
+    </div>
+    <div class="panel-options">
+        <p>Fresh</p>
+        <p>Amazon mini TV</p>
+        <p>Sell</p>
+        <p>best sellers</p>
+        <p>mobiles </p>
+        <p>today's deal</p>
+        <p>  electronics  </p>
+    </div>
+    <div class="panel-app border">
+        <img src="download.jpg" class="image-icon">
+        Shopping made easy | Download the app now</div>
+    </div>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-msg">
+         You are on amazon.com. You can also shop on Amazon India for millions of products with fast delivery.  
+        <a href="https://www.amazon.in/">Click here to go to amazon.in</a>
+        </div>
+    </div>
+
+    <div class="shop-section">          <!--complete container for whole background-->
+    <!-- <div class="content">     -->
+              <!-- no necessary need of this box -->
+        <div class="box1 box">
+            <div class="box-content">
+            <h2>Revamp your Home in style</h2>
+            <!-- <img src="box1.jpg" alt="unavailable" class="box-img"> -->     
+            <!-- with img tag styling add hone me problem aayegi like image fitting in the box so-->
+            <div class="box-img" style="background-image: url('box1.jpg');"></div>
+            <a href="https://www.amazon.in/">See more</a>
+        </div>
+        </div>
+        <div class="box2 box">
+            <!-- <div class="box-content"> -->
+            <h2>Up to 75% off | Headphones</h2>
+            <div class="box-img" style="background-image: url('box2.webp');">
+            </div>
+            <a href="https://www.amazon.in/">See more</a>
+        <!-- </div> -->
+        </div>
+        <div class="box3 box">
+            <h2>Up to 60% off | Styles for Men</h2>
+            <div class="box-img" style="background-image: url('box3.jpg');">
+            </div>
+            <a href="https://www.amazon.in/">See more</a>
+        </div>
+        <div class="box4 box">
+            <h2>Up to 60% off | Styles for Women</h2>
+            <div class="box-img" style="background-image: url('box4.webp');">
+            </div>
+            <a href="https://www.amazon.in/">See more</a>
+        </div>
+        <div class="box5  box">
+            <h2>Min. 50% off | Outdoor Solar lights</h2>
+            <div class="box-img" style="background-image: url('box5.jpg');">
+            </div>
+            <a href="https://www.amazon.in/">See more</a>
+        </div>
+        <div class="box6 box">
+            <h2>Sofas, dining table sets & more from stores</h2>
+            <div class="box-img" style="background-image: url('box6.jpg');">
+             </div>
+            <a href="https://www.amazon.in/">See more</a>
+        </div>
+        <div class="box6 box">
+            <h2>Hustlers: Jugaad ka khel | Watch only on miniTV</h2>
+            <div class="box-img" style="background-image: url('box7.jpg');">
+            </div>
+            <a href="https://www.amazon.in/">See more</a>
+        </div>
+    <!-- </div> -->
+</div>
+
+<FOOter>
+    <div class="foot-pannel1">
+       <a href="#">Back to Top</a> 
+    </div>
+    <div class="foot-pannel2">
+        <div class="foot-box">
+         <ul >
+            <h3>Get to Know Us</h3>
+            <!-- <br> -->
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Press Releases</li>
+            <li>Amazon Science</li>
+         </ul>
+       </div>
+    <div class="foot-box">
+        <ul >
+            <h3>Connect with Us</h3>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+        </ul>
+    </div>
+    <div class="foot-box">
+        <ul >
+            <h3>Make Money with Us</h3>
+            <li>Sell on Amazon</li>
+                <li>Sell under Amazon Accelerator</li>
+                <li>Protect and Build Your Brand</li>
+                <li>Amazon Global Selling</li>
+                <li>Become an Affiliate</li>
+                <li>Fulfilment by Amazon</li>
+                <li>Advertise Your Products</li>
+                <li>Amazon Pay on Merchants</li>
+        </ul>
+    </div>
+    <div class="foot-box">
+        <ul >
+            <h3>Let Us Help You</h3>
+                <li>COVID-19 and Amazon</li>
+                <li>Your Account</li>
+                <li>Returns Centre</li>
+                <li>100% Purchase Protection</li>
+                <li>Amazon App Download</li>
+                <li>Help</li>
+        </ul>
+    </div>
+</div>
+    <div class="foot-pannel3">
+        <div class="foot-logo"></div>
+        <div class="foot-lang">
+            <div id="globe"><i class="fa-solid fa-globe fa-xl" ></i></div>
+            <select id="selectlang">
+                <option value="eng" selected>English</option>
+                <option >Hindi</option>
+            </select>
+        </div>
+    </div>
+    <div class="foot-pannel4">
+        <div class="pages">
+        <a>Conditions of Use & Sale</a>
+        <a>Privacy Notice</a>
+        <a>Interest-Based Ads</a>
+       </div>
+        <div class="copyright">
+         © 1996-2024, Amazon.com, Inc. or its affiliates
+        </div>
+    </div>
+  
+    
+</FOOter>
+     
+</body>
+</html>
